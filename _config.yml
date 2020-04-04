@@ -108,4 +108,4 @@ exclude:
   - LICENSE
   - README.md
 
-theme: jekyll-theme-hacker
+theme: jekyll-theme-modernist
