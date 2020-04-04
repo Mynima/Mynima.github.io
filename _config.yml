@@ -21,10 +21,11 @@ description: Blogging Crypto-Mining Projects for Beginners'
 # List of links in the navigation bar
 navbar-links:
   About: "aboutme"
-  Pi Projects: "Pi_Projects"
-  CPU/GPU Mining: "CPU_GPU_Mining"
-  Miscellaneous, Projects: "Miscellaneous_Projects"
-
+  Guides: 
+    - Pi Projects: "Pi_Projects"
+    - CPU/GPU Mining: "CPU_GPU_Mining"
+    - Miscellaneous, Projects: "Miscellaneous_Projects"
+    
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
