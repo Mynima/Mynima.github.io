@@ -23,7 +23,7 @@ navbar-links:
   About: "aboutme"
   Guides: 
     - Raspberry Pi Projects: "Pi_Projects"
-    - CPU/GPU Mining Projects: "CPU_GPU_Mining"
+    - CPU/GPU Mining: "CPU_GPU_Mining"
     - Miscellaneous, Projects: "Miscellaneous_Projects"
 
   Resources:
