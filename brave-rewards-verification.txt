@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: mynima.github.io
+Token: 7e17b083a157751b69b47e7841e110b576ab1a7d77738c6e562d83876cb2a3d6
