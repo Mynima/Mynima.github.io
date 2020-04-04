@@ -19,11 +19,12 @@ description: Blogging Crypto-Mining Projects for Beginners'
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
-#navbar-links:
-#  About Me: "aboutme"
-#  Resources:
-#    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-#    - Learn markdown: "http://www.markdowntutorial.com/"
+navbar-links:
+  About Me: "aboutme"
+  Pi Projects: "Pi_Projects"
+  Resources:
+    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Learn markdown: "http://www.markdowntutorial.com/"
 #  Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -67,7 +68,7 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
+#  rss: true
 #  email: "someone@example.com"
 #  facebook: deanattali
   github: Mynima
