@@ -25,7 +25,7 @@ navbar-links:
     - Raspberry Pi Projects: "Pi_Projects"
     - CPU/GPU Mining: "CPU_GPU_Mining"
     - Miscellaneous, Projects: "Miscellaneous_Projects"
-    - About, Crypto: "About_Crypto"
+    - About Crypto: "About_Crypto"
 
   Resources:
     - Profitability Calculator: "https://whattomine.com/"
