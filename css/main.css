@@ -16,6 +16,7 @@ body {
   background-image: url({{ site.page-img | relative_url }});
   background-attachment: fixed;
   {% endif %}
+  align-items: center;
 }
 p {
   line-height: 1.5;
