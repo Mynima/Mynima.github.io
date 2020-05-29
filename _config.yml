@@ -21,6 +21,7 @@ description: Blogging Crypto-Mining Projects for Beginners'
 # List of links in the navigation bar
 navbar-links:
   About: "aboutme"
+  Trade/Referrals: "Trade_Refer"
   Guides: 
     - Raspberry Pi Projects: "Pi_Projects"
     - CPU/GPU Mining: "CPU_GPU_Mining"
