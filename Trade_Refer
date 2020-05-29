@@ -1,0 +1,19 @@
+---
+layout: page
+title: Trading and Referrals
+subtitle: Useful referral links and Trading Widgets
+use-site-title: true
+---
+
+<!-- Add a bit of info for the referrals -->
+
+
+<!-- ChangeNow Trading Widget -->
+<iframe id='iframe-widget' src='https://changenow.io/embeds/exchange-widget/v2/widget.html?amount=0.001&from=btc&link_id=2085dac1190ef9&to=eth&FAQ=true&logo=true' width='100%' height='350px' frameborder='0'></iframe><script type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
+
+
+
+<!-- Brave Referral Link/Banner -->
+<a href="https://brave.com/myn040">
+    <img src="/images/Brave.png" alt="Brave Referral">
+</a>
