@@ -12,7 +12,11 @@ permalink: /404.html
   <img src="{{ 'images/404.jpg' | relative_url }}" />
   
   <!--Test Changelly -->
-<script src="https://widget.changelly.com/affiliate.js"></script> <iframe src="https://widget.changelly.com?from=*&to=*&amount=1&address=1vQS1nnf1Ea7dx1u83No4sgQ8iTGk12nd&fromDefault=btc&toDefault=eth&theme=default&merchant_id=9ns2vl2kr4e79eq9&payment_id=&v=2" width="100%" height="600" class="changelly" scrolling="no" onLoad="function at(t){var e=t.target,i=e.parentNode,n=e.contentWindow,r=function(){return n.postMessage({width:i.offsetWidth},it.url)};window.addEventListener('resize',r),r()};at.apply(this, arguments);" style="min-width: 100%; width: 100px; overflow-y: hidden; border: none">Can't load widget</iframe>
+  <script src="https://changelly.com/static/payment-button-widget/widget-modal.js"></script>
+  <iframe src="https://changelly.com/static/payment-button-widget/index.html?paymentButtonTheme=aqua&buttonTextId=003&widgetLink=https%3A%2F%2Fwidget.changelly.com%3Ffrom%3D*%26to%3D*%26amount%3D1%26address%3D%26fromDefault%3Dbtc%26toDefault%3Deth%26theme%3Daqua%26merchant_id%3D9ns2vl2kr4e79eq9%26payment_id%3D%26v%3D2&isPopUp=true"width="220" height="48" frameborder="0"></iframe>
+  <link rel="stylesheet" href="https://changelly.com/static/payment-button-widget/widget-modal.css"/>
+  <div id="changellyModal"></div>
+    
   <!-- Brave Referral Link/Banner -->
   <a href="https://brave.com/myn040">
     <img src="/images/Brave.png" alt="Brave Referral">
