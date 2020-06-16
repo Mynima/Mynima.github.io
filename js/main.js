@@ -6,6 +6,16 @@ var main = {
   numImgs : null,
 
   init : function() {
+    window
+      .AirSwapTrader({
+      onCreate: (order, cid) => {
+        console.log('Order created!')
+      },
+      onClose: (transactionHash) => {
+        console.log('Widget closed')
+      },
+    })
+    .render('body')
     // Shorten the navbar after scrolling a little bit down
     $(window).scroll(function() {
         if ($(".navbar").offset().top > 50) {
