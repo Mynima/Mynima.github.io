@@ -60,6 +60,16 @@ use-site-title: true
 <br>
 <center>
     <script src="https://cdn.airswap.io/1.3.0/airswap-trader.js"></script>
+    window
+    .AirSwapTrader({
+        onCreate: (order, cid) => {
+        console.log('Order created!')
+        },
+        onClose: (transactionHash) => {
+        console.log('Widget closed')
+        },
+    })
+    .render('body')
 </center> 
 
 <p>
