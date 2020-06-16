@@ -1,7 +1,16 @@
 // Dean Attali / Beautiful Jekyll 2016
 
 var main = {
-
+  window
+    .AirSwapTrader({
+    onCreate: (order, cid) => {
+      console.log('Order created!')
+    },
+    onClose: (transactionHash) => {
+      console.log('Widget closed')
+    },
+  })
+    .render('body')
   bigImgEl : null,
   numImgs : null,
 
