@@ -23,6 +23,7 @@ navbar-links:
   About: "aboutme"
   Trade/Earn: 
     - Traders Corner: "Trade"
+    - Swapzone: "https://swapzone.io/"
     - Referrals: "Refer"
   Guides: 
     - Raspberry Pi Projects: "Pi_Projects"
