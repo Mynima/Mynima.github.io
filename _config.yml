@@ -35,12 +35,12 @@ navbar-links:
     - Profitability Calculator: "https://whattomine.com/"
     - Mining Pools: "https://2miners.com/"
     - Ravencoin: "https://ravencoin.org/"
-    - Monero: "https://www.getmonero.org/"
     - Vertcoin: "https://vertcoin.org/"
     - Banano: "https://banano.cc/"
     - Batgrowth: "https://batgrowth.com/"
     - Loopring Staking: "https://staking.loopring.org/"
     - Zapper: "https://www.zapper.fi/"
+    - Ampleforth ROI: "https://amplcalc.app/"
 
 # Nav Bar Image (must be square)
 avatar: "/images/Mynima.jpg"
