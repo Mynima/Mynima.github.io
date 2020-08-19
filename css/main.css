@@ -3,9 +3,12 @@ layout: null
 ---
 
 @import url("pygment_highlights.css");
+/* Added */
+table {
+  style="width:100%"
+}
 
 /* --- General --- */
-
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
