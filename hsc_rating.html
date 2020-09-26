@@ -316,7 +316,13 @@ use-site-title: true
 
     <script type="text/javascript">
         $("#hsc_scores").on("submit",function(e){
-            
+
+            var x = document.getElementById("hsc_score_table");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
             e.preventDefault(e);
             
             let num1 = hsc_score(hsc_cat(rateit(1, 1)), weight_rate(rateit(1, 1)), "Hodl");
