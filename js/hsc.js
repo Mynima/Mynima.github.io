@@ -1,4 +1,3 @@
-//My Functions
 //Score to rating
 let score_rate = (score_num, low_high) => {
     let score_rate_val = "";
