@@ -282,9 +282,11 @@ use-site-title: true
             <tr>
                 <th>Section</th>
                 <th>Hodl Score</th>
-                <th>Unscle Score</th>
+                <th>Unclear Score</th>
                 <th>Sell/Consolidate Score</th>
             </tr>
+        </thead>
+        <tbody>
             <tr>
                 <td id="Title_1"></td>
                 <td id="hodl_1_score"></td>
@@ -292,10 +294,10 @@ use-site-title: true
                 <td id="sell_1_score"></td>
             </tr>
             <tr>
-                <td id="Title_3"></td>
-                <td id="hodl_3_score"></td>
-                <td id="unclear_3_score"></td>
-                <td id="sell_3_score"></td>
+                <td id="Title_2"></td>
+                <td id="hodl_2_score"></td>
+                <td id="unclear_2_score"></td>
+                <td id="sell_2_score"></td>
             </tr>
             <tr>
                 <td id="Title_3"></td>
@@ -309,11 +311,12 @@ use-site-title: true
                 <td id="unclear_4_score"></td>
                 <td id="sell_4_score"></td>
             </tr>
-        </thead>
+        </tbody>
     </table>
 
     <script type="text/javascript">
         $("#hsc_scores").on("submit",function(e){
+            
             e.preventDefault(e);
             
             let num1 = hsc_score(hsc_cat(rateit(1, 1)), weight_rate(rateit(1, 1)), "Hodl");
@@ -333,10 +336,10 @@ use-site-title: true
             let num13 = hsc_score(hsc_cat(rateit(1, 3)), weight_rate(rateit(1, 3)), "Sell/Consolidate");
             let num14 = hsc_score(hsc_cat(rateit(1, 4)), weight_rate(rateit(1, 4)), "Sell/Consolidate");
             let num15 = hsc_score(hsc_cat(rateit(1, 5)), weight_rate(rateit(1, 5)), "Sell/Consolidate");
-            document.getElementById("Title_1").innerHTML = "Community/Development: "
-            document.getElementById("hodl_1_score").innerHTML = "This Section has a Hodl Rating of: " + (Number(num1) + Number(num2) + Number(num3) + Number(num4) + Number(num5));
-            document.getElementById("unclear_1_score").innerHTML = "This Section has a Unclear Rating of: " + (Number(num6) + Number(num7) + Number(num8) + Number(num9) + Number(num10));
-            document.getElementById("sell_1_score").innerHTML = "This Section has a Sell/Consolidate Rating of: " + (Number(num11) + Number(num12) + Number(num13) + Number(num14) + Number(num15));
+            document.getElementById("Title_1").innerHTML = "Community/Development"
+            document.getElementById("hodl_1_score").innerHTML = (Number(num1) + Number(num2) + Number(num3) + Number(num4) + Number(num5));
+            document.getElementById("unclear_1_score").innerHTML = (Number(num6) + Number(num7) + Number(num8) + Number(num9) + Number(num10));
+            document.getElementById("sell_1_score").innerHTML = (Number(num11) + Number(num12) + Number(num13) + Number(num14) + Number(num15));
 
 
             let num21 = hsc_score(hsc_cat(rateit(2, 1)), weight_rate(rateit(2, 1)), "Hodl");
@@ -356,10 +359,10 @@ use-site-title: true
             let num213 = hsc_score(hsc_cat(rateit(2, 3)), weight_rate(rateit(2, 3)), "Sell/Consolidate");
             let num214 = hsc_score(hsc_cat(rateit(2, 4)), weight_rate(rateit(2, 4)), "Sell/Consolidate");
             let num215 = hsc_score(hsc_cat(rateit(2, 5)), weight_rate(rateit(2, 5)), "Sell/Consolidate");
-            document.getElementById("Title_2").innerHTML = "Track Record: "
-            document.getElementById("hodl_2_score").innerHTML = "This Section has a Hodl Rating of: " + (Number(num21) + Number(num22) + Number(num23) + Number(num24) + Number(num25));
-            document.getElementById("unclear_2_score").innerHTML = "This Section has a Unclear Rating of: " + (Number(num26) + Number(num27) + Number(num28) + Number(num29) + Number(num210));
-            document.getElementById("sell_2_score").innerHTML = "This Section has a Sell/Consolidate Rating of: " + (Number(num211) + Number(num212) + Number(num213) + Number(num214) + Number(num215));
+            document.getElementById("Title_2").innerHTML = "Track Record"
+            document.getElementById("hodl_2_score").innerHTML = (Number(num21) + Number(num22) + Number(num23) + Number(num24) + Number(num25));
+            document.getElementById("unclear_2_score").innerHTML = (Number(num26) + Number(num27) + Number(num28) + Number(num29) + Number(num210));
+            document.getElementById("sell_2_score").innerHTML = (Number(num211) + Number(num212) + Number(num213) + Number(num214) + Number(num215));
 
 
             let num31 = hsc_score(hsc_cat(rateit(3, 1)), weight_rate(rateit(3, 1)), "Hodl");
@@ -379,10 +382,10 @@ use-site-title: true
             let num313 = hsc_score(hsc_cat(rateit(3, 3)), weight_rate(rateit(3, 3)), "Sell/Consolidate");
             let num314 = hsc_score(hsc_cat(rateit(3, 4)), weight_rate(rateit(3, 4)), "Sell/Consolidate");
             let num315 = hsc_score(hsc_cat(rateit(3, 5)), weight_rate(rateit(3, 5)), "Sell/Consolidate");
-            document.getElementById("Title_3").innerHTML = "Cost/Value: "
-            document.getElementById("hodl_3_score").innerHTML = "This Section has a Hodl Rating of: " + (Number(num31) + Number(num32) + Number(num33) + Number(num34) + Number(num35));
-            document.getElementById("unclear_3_score").innerHTML = "This Section has a Unclear Rating of: " + (Number(num36) + Number(num37) + Number(num38) + Number(num39) + Number(num310));
-            document.getElementById("sell_3_score").innerHTML = "This Section has a Sell/Consolidate Rating of: " + (Number(num311) + Number(num312) + Number(num313) + Number(num314) + Number(num315));
+            document.getElementById("Title_3").innerHTML = "Cost/Value"
+            document.getElementById("hodl_3_score").innerHTML = (Number(num31) + Number(num32) + Number(num33) + Number(num34) + Number(num35));
+            document.getElementById("unclear_3_score").innerHTML = (Number(num36) + Number(num37) + Number(num38) + Number(num39) + Number(num310));
+            document.getElementById("sell_3_score").innerHTML = (Number(num311) + Number(num312) + Number(num313) + Number(num314) + Number(num315));
 
 
             let num41 = hsc_score(hsc_cat(rateit(4, 1)), weight_rate(rateit(4, 1)), "Hodl");
@@ -399,10 +402,10 @@ use-site-title: true
             let num412 = hsc_score(hsc_cat(rateit(4, 2)), weight_rate(rateit(4, 2)), "Sell/Consolidate");
             let num413 = hsc_score(hsc_cat(rateit(4, 3)), weight_rate(rateit(4, 3)), "Sell/Consolidate");
             let num414 = hsc_score(hsc_cat(rateit(4, 4)), weight_rate(rateit(4, 4)), "Sell/Consolidate");
-            document.getElementById("Title_4").innerHTML = "Active Participation: "
-            document.getElementById("hodl_4_score").innerHTML = "This Section has a Hodl Rating of: " + (((Number(num41) + Number(num42) + Number(num43) + Number(num44))/4)*5);
-            document.getElementById("unclear_4_score").innerHTML = "This Section has a Unclear Rating of: " + (((Number(num46) + Number(num47) + Number(num48) + Number(num49))/4)*5);
-            document.getElementById("sell_4_score").innerHTML = "This Section has a Sell/Consolidate Rating of: " + (((Number(num411) + Number(num412) + Number(num413) + Number(num414))/4)*5);
+            document.getElementById("Title_4").innerHTML = "Active Participation"
+            document.getElementById("hodl_4_score").innerHTML = (((Number(num41) + Number(num42) + Number(num43) + Number(num44))/4)*5);
+            document.getElementById("unclear_4_score").innerHTML = (((Number(num46) + Number(num47) + Number(num48) + Number(num49))/4)*5);
+            document.getElementById("sell_4_score").innerHTML = (((Number(num411) + Number(num412) + Number(num413) + Number(num414))/4)*5);
 
         })
     </script>
