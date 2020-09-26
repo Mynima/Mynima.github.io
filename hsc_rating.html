@@ -1,0 +1,408 @@
+---
+layout: page
+title: Hodl, Sell or Consolidate
+subtitle: Rating System based on DYOR
+use-site-title: true
+---
+
+<form  id="hsc_scores">
+    <table>
+
+        <!--Community/Development Section-->
+        <thead>
+            <tr><th colspan="4">Community/Development</th></tr>
+            <tr>
+                <th>Section</th>
+                <th>Key Question(s)</th>
+                <th>Resources</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+
+        <tbody >
+            <tr>
+                <td>Social Media</td>
+                <td>How active is the community online? Are people talking about the Project? Is it quality content?</td>
+                <td>
+                    <span><a target="_blank" rel="noopener noreferrer" href="https://www.coingecko.com/en/coins/bitcoin#social">CoinGecko Social Summary</a></span>
+                    <span>Social Channels: Discord, Telegram, Reddit, Twitter, Facebook etc.</span>
+                </td>
+                <td>
+                    <input id="field1_1" type="number" min=1 max=5 name="social">
+                </td>
+            </tr>
+            <tr>
+                <td>Search Trends</td>
+                <td>Are others researching the project and where/when is most of the activity?</td>
+                <td><a target="_blank" rel="noopener noreferrer" href="https://trends.google.com/trends/explore?q=Bitcoin">Google Trends</a></td>
+                <td>
+                    <input id="field1_2" type="number" min=1 max=5 name="trends">
+                </td>
+            </tr>
+            <tr>
+                <td>Industrial Rating</td>
+                <td>What does an independent review think of the technology on the project and adoption?</td>
+                <td>
+                    <span><a target="_blank" rel="noopener noreferrer" href="https://weisscrypto.com/en/crypto/btc/summary">Weiss Crypto Rating</a></span>
+                    <span><a target="_blank" rel="noopener noreferrer" href="https://www.tokeninsight.com/tokenDetail?cid=2365">Token Insight</a></span>
+                </td>
+                <td>
+                    <input id="field1_3" type="number" min=1 max=5 name="industrial">
+                </td>
+            </tr>
+            <tr>
+                <td>Development</td>
+                <td>How active is the project team’s development?</td>
+                <td>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.coingecko.com/en/coins/bitcoin#developer">CoinGecko Development Summary</a>
+                </td>
+                <td>
+                    <input id="field1_4" type="number" min=1 max=5 name="development">
+                </td>
+            </tr>
+            <tr>
+                <td>Global Messages</td>
+                <td>How engaged is the project team with the community and what is the content of the current messages?</td>
+                <td>
+                    Project Website, Whitepaper, Press Releases etc.
+                </td>
+                <td>
+                    <input id="field1_5" type="number" min=1 max=5 name="message">
+                </td>
+            </tr>            
+        </tbody>
+
+        <!--Track Record Section-->
+        <thead>
+            <tr><th colspan="4">Track Record</th></tr>
+            <tr>
+                <th>Section</th>
+                <th>Key Question(s)</th>
+                <th>Resources</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+
+        <tbody >
+            <tr>
+                <td>Road-map Achievements</td>
+                <td>What are the long-term goals of the project and have the team achieved (on target) previous goals?</td>
+                <td>
+                    <span>Project Website, Whitepaper, Press Releases etc.</span>
+                    <span>News and Blogs Site:  Publish0x, FX Street, Medium etc.</span>
+                    <span><a target="_blank" rel="noopener noreferrer" href="https://www.coingecko.com/en/coins/bitcoin#news">CoinGecko News Summary</a></span>
+                </td>
+                <td>
+                    <input id="field2_1" type="number" min=1 max=5 name="roadmap">
+                </td>
+            </tr>
+            <tr>
+                <td>Market Cap/Price Growth</td>
+                <td>What is the current market position of the project and in which direction does it seem to be moving?</td>
+                <td>
+                    <span><a target="_blank" rel="noopener noreferrer" href="https://www.coingecko.com/en/coins/bitcoin">CoinGecko Project Summary</a></span>
+                    <span><a target="_blank" rel="noopener noreferrer" href="https://www.tokeninsight.com/tokenDetail?cid=2365">Token Insight</a></span>
+                    <span><a target="_blank" rel="noopener noreferrer" href="https://uk.tradingview.com/symbols/BTCUSD/?exchange=COINBASE">Trading View Charts</a></span>
+                </td>
+                <td>
+                    <input id="field2_2" type="number" min=1 max=5 name="growth">
+                </td>
+            </tr>
+            <tr>
+                <td>User Base</td>
+                <td>Does the project have a core app and, if so, how many users/downloads do they have?</td>
+                <td>
+                    <span><a target="_blank" rel="noopener noreferrer" href="https://www.apptrace.com/ ">AppTrace</a></span>
+                </td>
+                <td>
+                    <input id="field2_3" type="number" min=1 max=5 name="users">
+                </td>
+            </tr>
+            <tr>
+                <td>Partnerships</td>
+                <td>With whom have the project team forged strategic partnerships and is this list growing?</td>
+                <td>
+                    <span>Project Website, Whitepaper, Press Releases etc.</span>
+                    <span>News and Blogs Site:  Publish0x, FX Street, Medium etc.</span>
+                </td>
+                <td>
+                    <input id="field2_4" type="number" min=1 max=5 name="development">
+                </td>
+            </tr>
+            <tr>
+                <td>Project Team</td>
+                <td>Who makes up the project team, what are their roles/background and is it well rounded?</td>
+                <td>
+                    <span>Project Website, Whitepaper, Press Releases etc.</span>
+                </td>
+                <td>
+                    <input id="field2_5" type="number" min=1 max=5 name="message">
+                </td>
+            </tr>            
+        </tbody>
+
+        <!--Cost/Value Section-->
+        <thead>
+            <tr><th colspan="4">Cost/Value</th></tr>
+            <tr>
+                <th>Section</th>
+                <th>Key Question(s)</th>
+                <th>Resources</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+
+        <tbody >
+            <tr>
+                <td>Investment Rating</td>
+                <td>How do experts assess the project from an investment standpoint, where are the strengths and weaknesses?</td>
+                <td>
+                    <span><a target="_blank" rel="noopener noreferrer" href="https://weisscrypto.com/en/crypto/btc/summary">Weiss Crypto Ratings</a></span>
+                </td>
+                <td>
+                    <input id="field3_1" type="number" min=1 max=5 name="investment">
+                </td>
+            </tr>
+            <tr>
+                <td>Available Exchanges and Trading Volume</td>
+                <td>What is the trading volume like, what are the top trading pairs, are the listed exchanges recognizable and reputable?</td>
+                <td>
+                    <span><a target="_blank" rel="noopener noreferrer" href="https://www.coingecko.com/en/coins/bitcoin">CoinGecko Project Summary</a></span>
+                    <span><a target="_blank" rel="noopener noreferrer" href="https://app.intotheblock.com/coin/BTC">InToTheBlock Summary</a></span>
+                </td>
+                <td>
+                    <input id="field3_2" type="number" min=1 max=5 name="trading">
+                </td>
+            </tr>
+            <tr>
+                <td>Associated costs/value</td>
+                <td>If there was an ICO how has it performed? Additionally, how do trading/swapping/withdrawal costs look?</td>
+                <td>
+                    <span><a target="_blank" rel="noopener noreferrer" href="https://app.intotheblock.com/coin/BTC">InToTheBlock Summary</a></span>
+                    <span><a target="_blank" rel="noopener noreferrer" href="https://icodrops.com/">ICO Drops</a></span>
+                </td>
+                <td>
+                    <input id="field3_3" type="number" min=1 max=5 name="costs">
+                </td>
+            </tr>
+            <tr>
+                <td>Chain analysis and Bitcoin Correlation</td>
+                <td>How active is the network and how correlated is the project with Bitcoin?</td>
+                <td>
+                    <span><a target="_blank" rel="noopener noreferrer" href="https://app.intotheblock.com/coin/BTC">InToTheBlock Summary</a></span>
+                </td>
+                <td>
+                    <input id="field3_4" type="number" min=1 max=5 name="correlation">
+                </td>
+            </tr>
+            <tr>
+                <td>Historic price Action/ Trends/ Indicators</td>
+                <td>What is the recent market sentiment, and potentially market direction, like?</td>
+                <td>
+                    <span><a target="_blank" rel="noopener noreferrer" href="https://www.coingecko.com/en/coins/bitcoin">CoinGecko Project Summary</a></span>
+                    <span><a target="_blank" rel="noopener noreferrer" href="https://weisscrypto.com/en/crypto/btc/summary">Weiss Crypto Ratings</a></span>
+                    <span>News and Blogs Site:  Publish0x, FX Street, Medium etc.</span>
+                    <span><a target="_blank" rel="noopener noreferrer" href="https://app.intotheblock.com/coin/BTC">InToTheBlock Summary</a></span>
+                    <span><a target="_blank" rel="noopener noreferrer" href="https://coinmarketcal.com/en/">CoinMarketCalendar</a></span>
+                </td>
+                <td>
+                    <input id="field3_5" type="number" min=1 max=5 name="history">
+                </td>
+            </tr>            
+        </tbody>
+
+        <!--Active Participation Section-->
+        <thead>
+            <tr><th colspan="4">Active Participation</th></tr>
+            <tr>
+                <th>Section</th>
+                <th>Key Question(s)</th>
+                <th>Resources</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+
+        <tbody >
+            <tr>
+                <td>Holdings</td>
+                <td>Do you already hold some of these coins/tokens, how does it look relative to your total holdings?</td>
+                <td>
+                    <span>Your Wallets</span>
+                </td>
+                <td>
+                    <input id="field4_1" type="number" min=1 max=5 name="holdings">
+                </td>
+            </tr>
+            <tr>
+                <td>Earnings</td>
+                <td>Are there currently any ways that you could earn more on your investment for this coin (out with trading)?</td>
+                <td>
+                    <span>Staking</span>
+                    <span>Passive interest earnings</span>
+                    <span>Farming Tokens</span>
+                    <span>Providing Liquidity</span>
+                </td>
+                <td>
+                    <input id="field4_2" type="number" min=1 max=5 name="earn">
+                </td>
+            </tr>
+            <tr>
+                <td>Usuage</td>
+                <td>Are you currently actively, or do you plan, using the coin/token for their purpose? Or is it just speculative?</td>
+                <td>
+                    <span>Buying/swapping for gift cards</span>
+                    <span>Convert to Fiat and Spend via Card</span>
+                    <span>Governance</span>
+                    <span>Discounted trading fees</span>
+                </td>
+                <td>
+                    <input id="field4_3" type="number" min=1 max=5 name="use">
+                </td>
+            </tr>
+            <tr>
+                <td>Opinions</td>
+                <td>Based on the response to all the previous questions what is your opinion about the project?</td>
+                <td>
+                    <span>What does your gut tell you</span>
+                </td>
+                <td>
+                    <input id="field4_4" type="number" min=1 max=5 name="opinion">
+                </td>
+            </tr>          
+        </tbody>
+    </table>
+
+
+    <!--Get and present Scores-->                 
+    <button Type="submit">Get Score</button>
+    <p id="Title_1"></p>
+    <p id="hodl_1_score"></p>
+    <p id="unclear_1_score"></p>
+    <p id="sell_1_score"></p>
+
+    <p id="Title_2"></p>
+    <p id="hodl_2_score"></p>
+    <p id="unclear_2_score"></p>
+    <p id="sell_2_score"></p>
+
+    <p id="Title_3"></p>
+    <p id="hodl_3_score"></p>
+    <p id="unclear_3_score"></p>
+    <p id="sell_3_score"></p>
+
+    <p id="Title_4"></p>
+    <p id="hodl_4_score"></p>
+    <p id="unclear_4_score"></p>
+    <p id="sell_4_score"></p>
+
+    <script type="text/javascript">
+        $("#hsc_scores").on("submit",function(e){
+            e.preventDefault(e);
+            
+            let num1 = hsc_score(hsc_cat(rateit(1, 1)), weight_rate(rateit(1, 1)), "Hodl");
+            let num2 = hsc_score(hsc_cat(rateit(1, 2)), weight_rate(rateit(1, 2)), "Hodl");
+            let num3 = hsc_score(hsc_cat(rateit(1, 3)), weight_rate(rateit(1, 3)), "Hodl");
+            let num4 = hsc_score(hsc_cat(rateit(1, 4)), weight_rate(rateit(1, 4)), "Hodl");
+            let num5 = hsc_score(hsc_cat(rateit(1, 5)), weight_rate(rateit(1, 5)), "Hodl");
+
+            let num6 = hsc_score(hsc_cat(rateit(1, 1)), weight_rate(rateit(1, 1)), "Unclear");
+            let num7 = hsc_score(hsc_cat(rateit(1, 2)), weight_rate(rateit(1, 2)), "Unclear");
+            let num8 = hsc_score(hsc_cat(rateit(1, 3)), weight_rate(rateit(1, 3)), "Unclear");
+            let num9 = hsc_score(hsc_cat(rateit(1, 4)), weight_rate(rateit(1, 4)), "Unclear");
+            let num10 = hsc_score(hsc_cat(rateit(1, 5)), weight_rate(rateit(1, 5)), "Unclear");
+
+            let num11 = hsc_score(hsc_cat(rateit(1, 1)), weight_rate(rateit(1, 1)), "Sell/Consolidate");
+            let num12 = hsc_score(hsc_cat(rateit(1, 2)), weight_rate(rateit(1, 2)), "Sell/Consolidate");
+            let num13 = hsc_score(hsc_cat(rateit(1, 3)), weight_rate(rateit(1, 3)), "Sell/Consolidate");
+            let num14 = hsc_score(hsc_cat(rateit(1, 4)), weight_rate(rateit(1, 4)), "Sell/Consolidate");
+            let num15 = hsc_score(hsc_cat(rateit(1, 5)), weight_rate(rateit(1, 5)), "Sell/Consolidate");
+            document.getElementById("Title_1").innerHTML = "Community/Development: "
+            document.getElementById("hodl_1_score").innerHTML = "This Section has a Hodl Rating of: " + (Number(num1) + Number(num2) + Number(num3) + Number(num4) + Number(num5));
+            document.getElementById("unclear_1_score").innerHTML = "This Section has a Unclear Rating of: " + (Number(num6) + Number(num7) + Number(num8) + Number(num9) + Number(num10));
+            document.getElementById("sell_1_score").innerHTML = "This Section has a Sell/Consolidate Rating of: " + (Number(num11) + Number(num12) + Number(num13) + Number(num14) + Number(num15));
+
+
+            let num21 = hsc_score(hsc_cat(rateit(2, 1)), weight_rate(rateit(2, 1)), "Hodl");
+            let num22 = hsc_score(hsc_cat(rateit(2, 2)), weight_rate(rateit(2, 2)), "Hodl");
+            let num23 = hsc_score(hsc_cat(rateit(2, 3)), weight_rate(rateit(2, 3)), "Hodl");
+            let num24 = hsc_score(hsc_cat(rateit(2, 4)), weight_rate(rateit(2, 4)), "Hodl");
+            let num25 = hsc_score(hsc_cat(rateit(2, 5)), weight_rate(rateit(2, 5)), "Hodl");
+
+            let num26 = hsc_score(hsc_cat(rateit(2, 1)), weight_rate(rateit(2, 1)), "Unclear");
+            let num27 = hsc_score(hsc_cat(rateit(2, 2)), weight_rate(rateit(2, 2)), "Unclear");
+            let num28 = hsc_score(hsc_cat(rateit(2, 3)), weight_rate(rateit(2, 3)), "Unclear");
+            let num29 = hsc_score(hsc_cat(rateit(2, 4)), weight_rate(rateit(2, 4)), "Unclear");
+            let num210 = hsc_score(hsc_cat(rateit(2, 5)), weight_rate(rateit(2, 5)), "Unclear");
+
+            let num211 = hsc_score(hsc_cat(rateit(2, 1)), weight_rate(rateit(2, 1)), "Sell/Consolidate");
+            let num212 = hsc_score(hsc_cat(rateit(2, 2)), weight_rate(rateit(2, 2)), "Sell/Consolidate");
+            let num213 = hsc_score(hsc_cat(rateit(2, 3)), weight_rate(rateit(2, 3)), "Sell/Consolidate");
+            let num214 = hsc_score(hsc_cat(rateit(2, 4)), weight_rate(rateit(2, 4)), "Sell/Consolidate");
+            let num215 = hsc_score(hsc_cat(rateit(2, 5)), weight_rate(rateit(2, 5)), "Sell/Consolidate");
+            document.getElementById("Title_2").innerHTML = "Track Record: "
+            document.getElementById("hodl_2_score").innerHTML = "This Section has a Hodl Rating of: " + (Number(num21) + Number(num22) + Number(num23) + Number(num24) + Number(num25));
+            document.getElementById("unclear_2_score").innerHTML = "This Section has a Unclear Rating of: " + (Number(num26) + Number(num27) + Number(num28) + Number(num29) + Number(num210));
+            document.getElementById("sell_2_score").innerHTML = "This Section has a Sell/Consolidate Rating of: " + (Number(num211) + Number(num212) + Number(num213) + Number(num214) + Number(num215));
+
+
+            let num31 = hsc_score(hsc_cat(rateit(3, 1)), weight_rate(rateit(3, 1)), "Hodl");
+            let num32 = hsc_score(hsc_cat(rateit(3, 2)), weight_rate(rateit(3, 2)), "Hodl");
+            let num33 = hsc_score(hsc_cat(rateit(3, 3)), weight_rate(rateit(3, 3)), "Hodl");
+            let num34 = hsc_score(hsc_cat(rateit(3, 4)), weight_rate(rateit(3, 4)), "Hodl");
+            let num35 = hsc_score(hsc_cat(rateit(3, 5)), weight_rate(rateit(3, 5)), "Hodl");
+
+            let num36 = hsc_score(hsc_cat(rateit(3, 1)), weight_rate(rateit(3, 1)), "Unclear");
+            let num37 = hsc_score(hsc_cat(rateit(3, 2)), weight_rate(rateit(3, 2)), "Unclear");
+            let num38 = hsc_score(hsc_cat(rateit(3, 3)), weight_rate(rateit(3, 3)), "Unclear");
+            let num39 = hsc_score(hsc_cat(rateit(3, 4)), weight_rate(rateit(3, 4)), "Unclear");
+            let num310 = hsc_score(hsc_cat(rateit(3, 5)), weight_rate(rateit(3, 5)), "Unclear");
+
+            let num311 = hsc_score(hsc_cat(rateit(3, 1)), weight_rate(rateit(3, 1)), "Sell/Consolidate");
+            let num312 = hsc_score(hsc_cat(rateit(3, 2)), weight_rate(rateit(3, 2)), "Sell/Consolidate");
+            let num313 = hsc_score(hsc_cat(rateit(3, 3)), weight_rate(rateit(3, 3)), "Sell/Consolidate");
+            let num314 = hsc_score(hsc_cat(rateit(3, 4)), weight_rate(rateit(3, 4)), "Sell/Consolidate");
+            let num315 = hsc_score(hsc_cat(rateit(3, 5)), weight_rate(rateit(3, 5)), "Sell/Consolidate");
+            document.getElementById("Title_3").innerHTML = "Cost/Value: "
+            document.getElementById("hodl_3_score").innerHTML = "This Section has a Hodl Rating of: " + (Number(num31) + Number(num32) + Number(num33) + Number(num34) + Number(num35));
+            document.getElementById("unclear_3_score").innerHTML = "This Section has a Unclear Rating of: " + (Number(num36) + Number(num37) + Number(num38) + Number(num39) + Number(num310));
+            document.getElementById("sell_3_score").innerHTML = "This Section has a Sell/Consolidate Rating of: " + (Number(num311) + Number(num312) + Number(num313) + Number(num314) + Number(num315));
+
+
+            let num41 = hsc_score(hsc_cat(rateit(4, 1)), weight_rate(rateit(4, 1)), "Hodl");
+            let num42 = hsc_score(hsc_cat(rateit(4, 2)), weight_rate(rateit(4, 2)), "Hodl");
+            let num43 = hsc_score(hsc_cat(rateit(4, 3)), weight_rate(rateit(4, 3)), "Hodl");
+            let num44 = hsc_score(hsc_cat(rateit(4, 4)), weight_rate(rateit(4, 4)), "Hodl");
+
+            let num46 = hsc_score(hsc_cat(rateit(4, 1)), weight_rate(rateit(4, 1)), "Unclear");
+            let num47 = hsc_score(hsc_cat(rateit(4, 2)), weight_rate(rateit(4, 2)), "Unclear");
+            let num48 = hsc_score(hsc_cat(rateit(4, 3)), weight_rate(rateit(4, 3)), "Unclear");
+            let num49 = hsc_score(hsc_cat(rateit(4, 4)), weight_rate(rateit(4, 4)), "Unclear");
+
+            let num411 = hsc_score(hsc_cat(rateit(4, 1)), weight_rate(rateit(4, 1)), "Sell/Consolidate");
+            let num412 = hsc_score(hsc_cat(rateit(4, 2)), weight_rate(rateit(4, 2)), "Sell/Consolidate");
+            let num413 = hsc_score(hsc_cat(rateit(4, 3)), weight_rate(rateit(4, 3)), "Sell/Consolidate");
+            let num414 = hsc_score(hsc_cat(rateit(4, 4)), weight_rate(rateit(4, 4)), "Sell/Consolidate");
+            document.getElementById("Title_4").innerHTML = "Active Participation: "
+            document.getElementById("hodl_4_score").innerHTML = "This Section has a Hodl Rating of: " + (((Number(num41) + Number(num42) + Number(num43) + Number(num44))/4)*5);
+            document.getElementById("unclear_4_score").innerHTML = "This Section has a Unclear Rating of: " + (((Number(num46) + Number(num47) + Number(num48) + Number(num49))/4)*5);
+            document.getElementById("sell_4_score").innerHTML = "This Section has a Sell/Consolidate Rating of: " + (((Number(num411) + Number(num412) + Number(num413) + Number(num414))/4)*5);
+
+        })
+    </script>
+</form>
+            
+ 
+
+
+
+
+
+
+<!-- Brave Referral Link/Banner -->
+<a href="https://brave.com/myn040">
+    <img src="/images/Brave.png" alt="Brave Referral">
+</a>
+<!-- Presearch Referral Link/Banner -->
+<a href="https://www.presearch.org/signup?rid=1704854" target="_blank">
+  <img src="https://www.presearch.org/images/rf/ban-4.jpg" width="100%" title="Presearch" alt="presearch" />
+</a>
