@@ -275,25 +275,42 @@ use-site-title: true
 
     <!--Get and present Scores-->                 
     <button Type="submit">Get Score</button>
-    <p id="Title_1"></p>
-    <p id="hodl_1_score"></p>
-    <p id="unclear_1_score"></p>
-    <p id="sell_1_score"></p>
 
-    <p id="Title_2"></p>
-    <p id="hodl_2_score"></p>
-    <p id="unclear_2_score"></p>
-    <p id="sell_2_score"></p>
-
-    <p id="Title_3"></p>
-    <p id="hodl_3_score"></p>
-    <p id="unclear_3_score"></p>
-    <p id="sell_3_score"></p>
-
-    <p id="Title_4"></p>
-    <p id="hodl_4_score"></p>
-    <p id="unclear_4_score"></p>
-    <p id="sell_4_score"></p>
+    <table id="hsc_score_table">
+        <thead>
+            <tr><th colspan="4">Final Scores</th></tr>
+            <tr>
+                <th>Section</th>
+                <th>Hodl Score</th>
+                <th>Unscle Score</th>
+                <th>Sell/Consolidate Score</th>
+            </tr>
+            <tr>
+                <td id="Title_1"></td>
+                <td id="hodl_1_score"></td>
+                <td id="unclear_1_score"></td>
+                <td id="sell_1_score"></td>
+            </tr>
+            <tr>
+                <td id="Title_3"></td>
+                <td id="hodl_3_score"></td>
+                <td id="unclear_3_score"></td>
+                <td id="sell_3_score"></td>
+            </tr>
+            <tr>
+                <td id="Title_3"></td>
+                <td id="hodl_3_score"></td>
+                <td id="unclear_3_score"></td>
+                <td id="sell_3_score"></td>
+            </tr>
+            <tr>
+                <td id="Title_4"></td>
+                <td id="hodl_4_score"></td>
+                <td id="unclear_4_score"></td>
+                <td id="sell_4_score"></td>
+            </tr>
+        </thead>
+    </table>
 
     <script type="text/javascript">
         $("#hsc_scores").on("submit",function(e){
