@@ -23,7 +23,6 @@ navbar-links:
   About: "aboutme"
   Trade/Earn: 
     - Traders Corner: "Trade"
-    - Swapzone: "https://swapzone.io/"
     - Referrals: "Refer"
   Guides: 
     - Raspberry Pi Projects: "Pi_Projects"
@@ -40,6 +39,7 @@ navbar-links:
     - Batgrowth: "https://batgrowth.com/"
     - Loopring Staking: "https://staking.loopring.org/"
     - Zapper: "https://www.zapper.fi/"
+    - Swapzone: "https://swapzone.io/"
     - Ampleforth ROI: "https://amplcalc.app/"
 
 # Nav Bar Image (must be square)
