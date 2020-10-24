@@ -23,11 +23,10 @@
             <div class="navlinks-children">
               {%- for childlink in link[1] -%}
                 {%- for linkparts in childlink %}
-                  {%- if link[1] == 'Resources:' %}
+                  {%- if {{ link[0] }} == 'Resources' %}
                     <a href="{{ linkparts[1] | relative_url }}" target="_blank">{{ linkparts[0] }}</a>
                   {% else %}
                     <a href="{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
-                    <script>console.log(link[1])</script>
                   {%- endif -%}
                 {%- endfor -%}
               {%- endfor %}
