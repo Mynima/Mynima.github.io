@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: Hobbyist Mining
+title: Crypto Hobbyist
 
 # Short description of your site
-description: Blogging Crypto-Mining Projects for Beginners'
+description: Blogging about Crypto Projects for Beginners'
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -20,16 +20,17 @@ description: Blogging Crypto-Mining Projects for Beginners'
 
 # List of links in the navigation bar
 navbar-links:
-  About: "aboutme"
+  About The Hobbyist: "aboutme"
   Trade/Earn: 
     - Traders Corner: "Trade"
     - Referrals: "Refer"
   Guides: 
+    - Mining and Staking: "CPU_GPU_Mining"
     - Raspberry Pi Projects: "Pi_Projects"
-    - CPU/GPU Mining: "CPU_GPU_Mining"
+  About Crypto:
+    - Project Info: "About_Crypto"
+    - Wallets: "Wallets_Transactions"
     - Miscellaneous, Projects: "Miscellaneous_Projects"
-    - About Crypto: "About_Crypto"
-
   Resources:
     - Profitability Calculator: "https://whattomine.com/"
     - Mining Pools: "https://2miners.com/"
